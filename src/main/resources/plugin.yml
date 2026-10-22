@@ -1,0 +1,16 @@
+name: RydenAnnouncements
+version: 1.0.0
+main: com.rydenvr.announcements.AnnouncementsPlugin
+author: RydenVR
+description: Global announcements for Minecraft 1.8.8
+
+commands:
+  announce:
+    description: Broadcast a global announcement
+    usage: /announce <message>
+    permission: rydenannouncements.admin
+
+permissions:
+  rydenannouncements.admin:
+    description: Allows global announcements
+    default: op
